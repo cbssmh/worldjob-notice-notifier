@@ -23,7 +23,7 @@
 
 ## Project Structure
 
-
+```
 new-post-notifier/
 ├── app.py
 ├── crawler.py
@@ -34,55 +34,55 @@ new-post-notifier/
 ├── requirements.txt
 ├── sites.json
 └── README.md
+```
 
 
 ## Setup
 
 ### 1. Create virtual environment
 
-
+```
 python -m venv .venv
-
-
+```
 ### 2. Activate virtual environment
 
 Windows
 
-
+```
 .venv\Scripts\activate
-
+```
 
 Mac / Linux
 
-
+```
 source .venv/bin/activate
-
+```
 
 ### 3. Install dependencies
 
-
+```
 pip install -r requirements.txt
-
+```
 
 ### 4. Set environment variable
 
 Linux / Mac
 
-
+```
 export DISCORD_WEBHOOK_URL="your_webhook_url"
-
+```
 
 Windows PowerShell
 
-
+```
 $env:DISCORD_WEBHOOK_URL="your_webhook_url"
-
+```
 
 ### 5. Run
 
-
+```
 python app.py
-
+```
 
 ## How it works
 
