@@ -1,0 +1,6 @@
+import os
+
+CHECK_INTERVAL_MINUTES = 10
+DB_PATH = "notifier.db"
+
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
