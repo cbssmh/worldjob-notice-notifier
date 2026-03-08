@@ -4,12 +4,17 @@ __pycache__/
 
 # virtual environment
 .venv/
+venv/
 
 # database
 notifier.db
 
 # environment
 .env
+
+# runtime
+nohup.out
+*.log
 
 # OS
 .DS_Store
