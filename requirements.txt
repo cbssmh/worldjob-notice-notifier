@@ -2,3 +2,5 @@ requests
 beautifulsoup4
 apscheduler
 python-dotenv
+fastapi
+uvicorn
